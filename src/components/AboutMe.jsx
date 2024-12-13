@@ -1,12 +1,14 @@
 import React from 'react'
-import profile from '../assets/profile.jpeg'
+import profile from '../assets/profile.jpg'
 
 const AboutMe = () => {
     return (
         <div className='bg-gray-200'>
             <div className='flex px-52 py-28'>
                 <div className='w-1/2 flex justify-center'>
-                    <img src={profile} alt="" className="rounded-full" />
+                    <div className='w-96'>
+                        <img src={profile} alt="" className="rounded-full" />
+                    </div>
                 </div>
 
                 <div className="w-1/2 pl-8 flex items-center">

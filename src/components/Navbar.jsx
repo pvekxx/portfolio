@@ -25,7 +25,7 @@ function Navbar() {
             className={`fixed top-0 w-full transition-colors duration-300 ${isScrolled ? 'bg-white bg-opacity-60' : 'bg-transparent'
                 }`}
         >
-            <div className="container flex items-center p-4 text-gray-500 text-lg gap-4">
+            <div className="container flex items-center py-4 px-6 text-gray-500 text-lg gap-4">
                 <div>
                     <Link
                         to="mainBody"
