@@ -32,7 +32,28 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
+  }
+}
+
+.gradient-bg {
+  background: linear-gradient(136deg, #AEC6CF, #FFD1DC, #FFB347, #CFCFC4, #B39EB5);
+  background-size: 1200% 1200%;
+  animation: gradientAnimation 30s ease-in-out infinite;
+}
+
+@keyframes gradientAnimation {
+  0% {
+    background-position: 0% 50%;
+  }
+
+  50% {
+    background-position: 100% 50%;
+  }
+
+  100% {
+    background-position: 0% 50%;
   }
 }
