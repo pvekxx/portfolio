@@ -27,7 +27,7 @@ const Skills = () => {
         : skillsData.filter(el => el.category === select);
 
     return (
-        <div className='bg-gray-50 flex flex-col px-16 py-24 gap-8'>
+        <div className='bg-gray-50 flex flex-col px-16 py-24 gap-10'>
             <div className='text-5xl font-extralight flex justify-center'>
                 Skills
             </div>

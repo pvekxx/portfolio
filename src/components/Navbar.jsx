@@ -33,7 +33,7 @@ function Navbar() {
                         duration={300}
                         className="cursor-pointer hover:text-black"
                     >
-                        JongHyukBaek
+                        BaekJongHyuk
                     </Link>
                 </div>
                 <div>

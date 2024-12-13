@@ -28,7 +28,7 @@ function MainBody() {
                 <Cursor />
             </div>
 
-            <div className='flex flex-col items-center gap-12'>
+            <div className='flex flex-col items-center gap-10 animate-fade-in-up'>
 
                 <a
                     href="https://github.com/pvekxx"
@@ -42,7 +42,7 @@ function MainBody() {
                         smooth={true}
                         duration={300}
                         className="cursor-pointer hover:bg-white hover:text-black transition duration-300 py-2
-                    px-4 rounded-lg text-white border-white border text-xl "
+                    px-4 rounded-lg text-white border-white border text-xl"
                     >
                         More about me
                     </Link>
