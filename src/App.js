@@ -6,6 +6,7 @@ import Skills from './components/Skills';
 import Footer from './components/Footer';
 import Navbar from './components/Navbar';
 import MainBody from './components/MainBody';
+import Strength from './components/Strength';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
       </section>
       <section id='aboutMe'>
         <AboutMe />
+        {/* <Strength /> */}
       </section>
       <section id='recentProjects'>
         <RecentProjects />
