@@ -41,7 +41,7 @@
 .gradient-bg {
   background: linear-gradient(136deg, #AEC6CF, #FFD1DC, #FFB347, #CFCFC4, #B39EB5);
   background-size: 1200% 1200%;
-  animation: gradientAnimation 30s ease-in-out infinite;
+  animation: gradientAnimation 20s ease-in-out infinite;
 }
 
 @keyframes gradientAnimation {

@@ -31,8 +31,8 @@ const RecentProjects = () => {
                         <div className='font-bold text-lg'>담당한 기능</div>
                         <div className='flex flex-col gap-2 pl-4 text-gray-500'>
                             <div>- 알람 관리 시스템 : React와 React-Native, Expo를 활용하여 사용자 인터페이스를 설계하고 구현하였습니다. TypeScript를 사용하여 코드의 안정성을 높였으며, 사용자가 직관적으로 알람을 설정, 수정, 삭제할 수 있도록 구현하였습니다.</div>
-                            <div>- 주기적인 푸시 알람 전송 기능 구현 : Nest.js의 Cron모듈을 활용하여 사용자가 설정한 시간에 맞춰 푸시 알람을 전송하는 백엔드 로직을 구현하였습니다. Expo의 expo-notifications API를 사용하여  푸시 알람 시스템을 설계하였으며, 이를 통해 사용자가 설정한 시간에 정확하게 알람을 받을 수 있도록 하였습니다.</div>
-                            <div>- 상태 관리 및 데이터 페칭 : React-Query를 활용하여 데이터 상태 관리 및 페칭을 하였습니다. 이를 통해 애플리케이션의 성능을 향상시키고, 사용자가 원활한 앱 사용성을 가질 수 있도록 하였습니다.</div>
+                            <div>- 주기적인 푸시 알람 전송 기능 : Nest.js의 Cron모듈을 활용하여 사용자가 설정한 시간에 맞춰 푸시 알람을 전송하는 백엔드 로직을 구현하였습니다. Expo의 expo-notifications API를 사용하여  푸시 알람 시스템을 설계하였으며, 이를 통해 사용자가 설정한 시간에 정확하게 알람을 받을 수 있도록 하였습니다.</div>
+                            <div>- 상태 관리 및 데이터 페칭 : React-Query를 활용하여 데이터 상태 관리를 하였습니다. 이를 통해 애플리케이션의 성능을 향상시키고, 사용자가 원활한 앱 사용성을 가질 수 있도록 하였습니다.</div>
                             <div>- 컨테이너화 및 배포 : React Native와 Expo를 사용하여 애플리케이션을 APK 파일로 빌드하였으며, 백엔드 서버는 Docker를 활용하여 이미지를 AWS ECR을 통해 컨테이너로 실행해 안정적인 서버 환경을 설정하였습니다.</div>
                         </div>
                     </div>
@@ -55,12 +55,12 @@ const RecentProjects = () => {
                         </div>
                         <div className='font-bold text-lg'>사용 기술</div>
                         <div className='pl-4 text-gray-500'>
-                            HTML, CSS, JavaScript, TypeScript, node.js, nest.js, mysql, Sequelize, GitHub-actions, aws ec2
+                            HTML, CSS, JavaScript, TypeScript, Node.js, Nest.js, Mysql, Sequelize, GitHub-actions, AWS(EC2)
                         </div>
                         <div className='font-bold text-lg'>담당한 기능</div>
                         <div className='flex flex-col gap-3 pl-4 text-gray-500'>
-                            <div>- 소셜 로그인 및 일반 로그인 구현 : Oauth2.0과 카카오와 구글의 Passport를 활용하여 소셜 로그인 기능을 구현하였으며, 일반 로그인을 지원하여 다양한 사용자 인증 방식을 구현하였습니다.</div>
-                            <div>- 유저 및 아이템 관리 시스템 : Nest.js와 MySQL을 사용하여 사용자의 정보와 중고 아이템 데이터를 관리할 수 있는 백엔드 로직을 구현하였습니다. RESTful API를 설계하여 프론트엔드와의 원활한 데이터 통신을 가능하게 하였습니다.</div>
+                            <div>- 소셜 로그인 및 일반 로그인 : Oauth2.0과 카카오와 구글의 Passport를 활용하여 소셜 로그인 기능을 구현하였으며, 일반 로그인을 지원하여 다양한 사용자 인증 방식을 구현하였습니다.</div>
+                            <div>- 유저 및 아이템 관리 시스템 : Nest.js와 Mysql을 사용하여 사용자의 정보와 중고 아이템 데이터를 관리할 수 있는 백엔드 로직을 구현하였습니다. RESTful API를 설계하여 프론트엔드와의 원활한 데이터 통신을 가능하게 하였습니다.</div>
                             <div>- CI/CD : GitHub-Actions를 사용하여 빌드 및 배포를 자동화 하였으며, AWS EC2를 활용하여 안정적인 서버 환경을 설정하였습니다. 이를 통해 개발 생산성을 향상하였습니다.</div>
                         </div>
                     </div>
@@ -87,8 +87,8 @@ const RecentProjects = () => {
                         </div>
                         <div className='font-bold text-lg'>담당한 기능</div>
                         <div className='flex flex-col gap-3 pl-4 text-gray-500'>
-                            <div>- 게시글 및 댓글 기능 구현 : 게시판의 글, 댓글, 대댓글에 대한 전체적인 기능을 HTML, CSS, JavaScript, TypeScript를 활용하여 구현하였습니다.</div>
-                            <div>- 고유 인덱스 기반 게시글 관리 : 게시글 작성 시 고유 인덱스를 할당하여 URL 파라미터로 활용함으로써 게시글 조회 및 관리를 구현하였습니다.</div>
+                            <div>- 게시글 및 댓글 기능 : 게시판의 글, 댓글, 대댓글에 대한 전체적인 기능을 HTML, CSS, JavaScript, TypeScript를 활용하여 구현하였습니다.</div>
+                            <div>- 고유 인덱스 기반 게시글 관리 : 게시글 작성 시 고유 인덱스를 할당하여 URL 파라미터로 활용함으로써 게시글 조회 및 관리를 하였습니다.</div>
                             <div>- TypeScript를 통한 데이터 구조 안정성 확보 : 게시글 및 댓글 데이터를 처리하는 과정에서 TypeScript의 정적 타입 검사를 통해 일관된 데이터 구조 유지와 오류 예방을 하였습니다.</div>
                         </div>
                     </div>
