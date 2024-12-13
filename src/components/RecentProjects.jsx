@@ -7,9 +7,9 @@ const RecentProjects = () => {
             <div className='text-5xl font-extralight flex justify-center py-8'>
                 Recent Projects
             </div>
-            <div className='flex flex-col gap-20 py-8'>
+            <div className='flex flex-col gap-16 py-8'>
                 {/* 프로젝트 1 */}
-                <div className='flex gap-6'>
+                <div className='flex gap-8'>
                     <div className='w-[33%] text-sm flex flex-col gap-3'>
                         <img src={projectImg} alt="" className='' />
                         <div>팀 프로젝트(3인)</div>
@@ -17,7 +17,7 @@ const RecentProjects = () => {
                         <div className='text-xs'>프론트엔드 및 백엔드</div>
                     </div>
 
-                    <div className='w-full flex flex-col gap-4'>
+                    <div className='w-full flex flex-col gap-3'>
                         <div className='font-bold text-2xl'>
                             복약 알람 앱 - 삐약삐약
                         </div>
@@ -37,8 +37,9 @@ const RecentProjects = () => {
                         </div>
                     </div>
                 </div>
+                <div className='w-full border-b border-gray-300'></div>
                 {/* 프로젝트 2 */}
-                <div className='flex  '>
+                <div className='flex gap-8'>
                     <div className='w-[33%] text-sm flex flex-col gap-3'>
                         <img src={projectImg} alt="" className='' />
                         <div>팀 프로젝트(3인)</div>
@@ -65,8 +66,9 @@ const RecentProjects = () => {
                         </div>
                     </div>
                 </div>
+                <div className='w-full border-b border-gray-300'></div>
                 {/* 프로젝트 3 */}
-                <div className='flex  '>
+                <div className='flex  gap-8'>
                     <div className='w-[33%] text-sm flex flex-col gap-3'>
                         <img src={projectImg} alt="" className='' />
                         <div>팀 프로젝트(4인)</div>

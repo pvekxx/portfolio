@@ -11,13 +11,16 @@ function MainBody() {
         words: ['백종혁의 포트폴리오 입니다.'],
         loop: 1,
         delaySpeed: 2000,
-        deleteSpeed: 0,
+        // deleteSpeed: 0,
     });
 
     return (
-        <div className='text-white h-screen flex flex-col items-center justify-center gradient-bg gap-44 '>
+        <div className='text-white h-screen flex flex-col items-center justify-center gradient-bg gap-6'>
 
-            <div className=' text-white text-7xl'>
+            <div className=' text-white text-8xl'>
+                안녕하세요 !
+            </div>
+            <div className=' text-white text-3xl'>
                 {text}
                 <Cursor />
             </div>

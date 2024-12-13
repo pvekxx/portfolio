@@ -11,14 +11,14 @@ const AboutMe = () => {
                     </div>
                 </div>
 
-                <div className="w-1/2 pl-8 flex items-center">
+                <div className="w-1/2 pl-8 flex items-center ">
                     <div>
                         <div className='text-5xl font-extralight'>
                             About Me
                         </div>
                         <div className='flex flex-col justify-center'>
                             <div className='py-10 text-gray-500'>
-                                안녕하세요.
+                                지속적인 학습과 경험을 통해 더 나은 가치를 제공할 수 있는 개발자로 성장하고자 합니다.
                             </div>
                             <div className='flex gap-12'>
                                 <div className='font-bold flex flex-col gap-4'>
