@@ -17,19 +17,17 @@ function MainBody() {
     return (
         <div className='text-white h-screen flex flex-col items-center justify-center gradient-bg gap-6'>
 
-            <div className=' text-white text-8xl'>
+            <div className=' text-white text-8xl tracking-wide'>
                 안녕하세요 !
             </div>
-            <div className=' text-white text-3xl'>
+            <div className=' text-white text-3xl '>
                 {text}
                 <Cursor />
             </div>
 
             <div className='flex flex-col items-center gap-10 animate-fade-in-up absolute bottom-20'>
 
-                <a
-                    href="https://github.com/pvekxx"
-                >
+                <a href="https://github.com/pvekxx">
                     <FontAwesomeIcon icon={faGithub} size="3x" />
                 </a>
 
