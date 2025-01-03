@@ -17,10 +17,10 @@ function MainBody() {
     return (
         <div className='text-white h-screen flex flex-col items-center justify-center gradient-bg gap-6'>
 
-            <div className=' text-white text-8xl tracking-wide'>
+            <div className=' text-white text-6xl md:text-8xl tracking-wide'>
                 안녕하세요 !
             </div>
-            <div className=' text-white text-3xl '>
+            <div className=' text-white text-xl md:text-3xl '>
                 {text}
                 <Cursor />
             </div>

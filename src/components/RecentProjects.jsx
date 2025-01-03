@@ -5,16 +5,17 @@ import donutboard from '../assets/donutboard.png'
 import project3 from '../assets/project3.gif'
 import project2 from '../assets/project2.gif'
 import project2list from '../assets/project2list.png'
+import project2mystore from '../assets/project2mystore.png'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGithub } from '@fortawesome/free-brands-svg-icons';
 
 const RecentProjects = () => {
     return (
-        <div className='bg-gray-100 flex flex-col items-center py-16'>
+        <div className='bg-gray-100 flex flex-col items-center py-16 px-4'>
             <div className='text-5xl font-extralight flex justify-center py-8'>
                 Recent Projects
             </div>
-            <div className='flex flex-col w-[850px] gap-14 py-8'>
+            <div className='flex flex-col max-w-4xl w-full gap-14 py-8'>
                 {/* 프로젝트 1 */}
                 <div className='flex gap-10'>
                     <div className='w-[50%] text-sm flex flex-col gap-3'>
@@ -29,7 +30,7 @@ const RecentProjects = () => {
                             <div className='font-bold text-2xl'>
                                 복약 알람 앱 - 삐약삐약
                             </div>
-                            <a href="https://github.com/pvekxx" className='flex items-center'>
+                            <a href="https://github.com/pvekxx/Devops_Project_03_bbiyakbbiyak" className='flex items-center'>
                                 <FontAwesomeIcon icon={faGithub} size="2x" className='hover:text-gray-500 transition duration-200' />
                             </a>
                         </div>
@@ -54,7 +55,7 @@ const RecentProjects = () => {
                 <div className='flex gap-10'>
                     <div className='w-[50%] text-sm flex flex-col gap-3'>
                         <img src={project2} alt="" className='' />
-                        <img src={project2list} alt="" className='' />
+                        <img src={project2mystore} alt="" className='' />
                         <div>팀 프로젝트(3인)</div>
                         <div className='text-xs'>2024/07/19 ~ 2024/08/07 (14일)</div>
                         <div className='text-xs'>백엔드</div>
@@ -65,7 +66,7 @@ const RecentProjects = () => {
                             <div className='font-bold text-2xl'>
                                 중고 거래 마켓 - Rehand
                             </div>
-                            <a href="https://github.com/pvekxx" className='flex items-center'>
+                            <a href="https://github.com/pvekxx/project2-h3" className='flex items-center'>
                                 <FontAwesomeIcon icon={faGithub} size="2x" className='hover:text-gray-500 transition duration-200' />
                             </a>
                         </div>
@@ -100,7 +101,7 @@ const RecentProjects = () => {
                             <div className='font-bold text-2xl'>
                                 게시판 - Donut Shop
                             </div>
-                            <a href="https://github.com/pvekxx" className='flex items-center'>
+                            <a href="https://github.com/pvekxx/project1-songpa" className='flex items-center'>
                                 <FontAwesomeIcon icon={faGithub} size="2x" className='hover:text-gray-500 transition duration-200' />
                             </a>
                         </div>

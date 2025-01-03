@@ -3,8 +3,8 @@ import profile from '../assets/profile2.jpeg'
 
 const AboutMe = () => {
     return (
-        <div className='bg-gray-200 flex justify-center'>
-            <div className='flex w-[1100px] py-28'>
+        <div className='bg-gray-200 flex justify-center px-4'>
+            <div className='flex max-w-5xl w-full py-28'>
 
                 <div className='w-1/2 flex justify-center'>
                     <div className='w-96 flex items-center'>

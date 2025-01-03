@@ -1,7 +1,17 @@
 import React, { useState } from 'react'
 
 const Skills = () => {
-    const [select, setSelect] = useState("ALL")
+
+    const initSelect = () => {
+        const params = new URLSearchParams(window.location.search);
+        const position = params.get('position');
+        if (position === 'backend') {
+            return 'BackEnd';
+        }
+        return 'FrontEnd';
+    };
+
+    const [select, setSelect] = useState(initSelect())
     const categories = ["ALL", "Language", "FrontEnd", "BackEnd", "Deploy"];
 
     const skillsData = [
