@@ -5,6 +5,7 @@ const AboutMe = () => {
     return (
         <div className='bg-gray-200 flex justify-center'>
             <div className='flex w-[1100px] py-28'>
+
                 <div className='w-1/2 flex justify-center'>
                     <div className='w-96 flex items-center'>
                         <img src={profile} alt="" className="rounded-full" />
@@ -19,6 +20,7 @@ const AboutMe = () => {
                         <div className='flex flex-col justify-center'>
                             <div className='py-10 text-gray-500 text-lg'>
                                 지속적인 학습과 경험을 통해 더 나은 가치를 제공할 수 있는 개발자로 성장하고자 합니다.
+                                {/* 언제 어디서든 즐겁게 일할 준비가 되어있습니다. */}
                             </div>
                             <div className='flex gap-12'>
                                 <div className='font-bold flex flex-col gap-4'>

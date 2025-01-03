@@ -2,6 +2,9 @@ import React from 'react'
 import projectImg from '../assets/dummy.jpg'
 import donutmain from '../assets/donutmain.gif'
 import donutboard from '../assets/donutboard.png'
+import project3 from '../assets/project3.gif'
+import project2 from '../assets/project2.gif'
+import project2list from '../assets/project2list.png'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGithub } from '@fortawesome/free-brands-svg-icons';
 
@@ -14,8 +17,8 @@ const RecentProjects = () => {
             <div className='flex flex-col w-[850px] gap-14 py-8'>
                 {/* 프로젝트 1 */}
                 <div className='flex gap-10'>
-                    <div className='w-[40%] text-sm flex flex-col gap-3'>
-                        <img src={projectImg} alt="" className='' />
+                    <div className='w-[50%] text-sm flex flex-col gap-3'>
+                        <img src={project3} alt="" className='' />
                         <div>팀 프로젝트(3인)</div>
                         <div className='text-xs'>2024/09/24 ~ 2024/10/24 (23일)</div>
                         <div className='text-xs'>프론트엔드 및 백엔드</div>
@@ -49,8 +52,9 @@ const RecentProjects = () => {
                 <div className='w-full border-b border-gray-300'></div>
                 {/* 프로젝트 2 */}
                 <div className='flex gap-10'>
-                    <div className='w-[40%] text-sm flex flex-col gap-3'>
-                        <img src={projectImg} alt="" className='' />
+                    <div className='w-[50%] text-sm flex flex-col gap-3'>
+                        <img src={project2} alt="" className='' />
+                        <img src={project2list} alt="" className='' />
                         <div>팀 프로젝트(3인)</div>
                         <div className='text-xs'>2024/07/19 ~ 2024/08/07 (14일)</div>
                         <div className='text-xs'>백엔드</div>
@@ -83,7 +87,7 @@ const RecentProjects = () => {
                 <div className='w-full border-b border-gray-300'></div>
                 {/* 프로젝트 3 */}
                 <div className='flex gap-10'>
-                    <div className='w-[40%] text-sm flex flex-col gap-3 '>
+                    <div className='w-[50%] text-sm flex flex-col gap-3 '>
                         <img src={donutmain} alt="" className='' />
                         <img src={donutboard} alt="" className='' />
                         <div>팀 프로젝트(4인)</div>
