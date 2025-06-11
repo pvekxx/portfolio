@@ -8,8 +8,9 @@ import { Link } from 'react-scroll';
 
 function MainBody() {
     const [text] = useTypewriter({
-        words: ['백종혁의 포트폴리오 입니다.'],
+        words: ['경험과 성장을 차곡차곡 쌓아가고 있는 신입 개발자 백종혁 입니다.'],
         loop: 1,
+        typeSpeed: 50,
         delaySpeed: 2000,
         // deleteSpeed: 0,
     });

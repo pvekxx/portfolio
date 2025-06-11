@@ -19,7 +19,7 @@ const AboutMe = () => {
                         </div>
                         <div className='flex flex-col justify-center'>
                             <div className='py-10 text-gray-500 text-lg'>
-                                지속적인 학습과 경험을 통해 더 나은 가치를 제공할 수 있는 개발자로 성장하고자 합니다.
+                                작은 일에도 책임감을 다하며, 유연한 태도로 팀에 긍정적인 힘이 되고 싶은 신입 개발자입니다.
                                 {/* 언제 어디서든 즐겁게 일할 준비가 되어있습니다. */}
                             </div>
                             <div className='flex gap-12'>
